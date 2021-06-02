@@ -10,7 +10,7 @@ const About = (props) => {
 
   return (
     <div>
-      <h1>Welcome to My Company's Official Webpage!</h1>
+      <h2>Welcome to My Company's Official Webpage!</h2>
 
       <p data-testid="companyEl">{props.companyName}</p>
 

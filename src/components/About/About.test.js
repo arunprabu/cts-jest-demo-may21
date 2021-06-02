@@ -55,7 +55,7 @@ describe('About component', () => {
   });
 
    //finally let's focus on snapshot testing
-   it('should have right about comp snapshot', () => {
+  it('should have right about comp snapshot', () => {
     const tree = renderer.create(<About companyName='Facebook'></About>).toJSON();
     console.log(tree);
     expect(tree).toMatchSnapshot();
